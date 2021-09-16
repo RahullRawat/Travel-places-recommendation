@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html{
+  font-family: "Cabin", sans-serif;
+}
+
+body{
+  background: #ff7b54;
+  background-position: 10% 35%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.heading{
+  font-size: 40px;
+  font-family: "Lobster", sans-serif;
+  letter-spacing: 4px;
+}
+
+.para{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Cabin", sans-serif;
+  color: #111;
+  background-color: #ff7b54;
+  padding: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.btnClick{
+  font-size: 18px;
+  font-family: "Lobster", sans-serif;
+  letter-spacing: 2px;
+  color: #ff7b54;
+  background-color: #111;
+  padding: 1rem 2rem;
+  margin: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.seePlaceList{
+  background-color: #ff7b54;
+ 
+  margin: 2rem 0;
+}
+
+.display-list{
+  list-style: none;
+  padding: 1rem;
+  border: 2px solid #111;
+}
+
+.name{
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 20px;
+  background-color: #111;
+  padding: 1rem;
+  color: #ff7b54;
+}
+
+.desc{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.3px;
+  margin-bottom: 10px;
+}
+
+.ratings{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 30px;
+  letter-spacing: 1.3px;
+}
